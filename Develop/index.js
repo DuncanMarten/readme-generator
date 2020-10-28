@@ -1,4 +1,5 @@
 const inquirer = require('inquirer');
+const fs = require('fs');
 
 const generateMarkdown = require('./utils/generateMarkdown.js');
 
@@ -8,12 +9,22 @@ const questions = [
 ];
 
 // function to write README file
-function writeToFile(fileName, data) {
+function writeToFile(data) {
+    fs.writeFile('./README.md', data, err => {
+        if (err) {
+            console.log(err);
+        }
+    })
 }
 
 // function to initialize program
 function init() {
     return inquirer.prompt([
+        {
+            type: 'input',
+            name: 'title',
+            message: 'Enter name of application'
+        },
         {
             type: 'input',
             name: 'description',
@@ -68,4 +79,9 @@ function init() {
 
 // function call to initialize program
 init()
-    .then();
+    .then(applicationData => {
+        return generateMarkdown(applicationData);
+    })
+    .then(readme => {
+        return writeToFile(readme);
+    });
