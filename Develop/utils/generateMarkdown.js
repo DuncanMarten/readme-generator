@@ -30,8 +30,8 @@ function generateMarkdown(data) {
   ${data.tests}
 
   ## Questions
-  *Contact me on [Github](http://www.github.com/${data.github})
-  *Contact me by [email](mailto:${data.email}?subject=[Question]%20About%20${data.title})
+  * Contact me on [Github](http://www.github.com/${data.github})
+  * Contact me by [email](mailto:${data.email}?subject=[Question]%20About%20${data.title})
   `;
 }
 

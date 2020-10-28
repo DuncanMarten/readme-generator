@@ -1,8 +1,8 @@
 
-  # README-Generator
+  # README.md
   (https://img.shields.io/badge/license-MIT-blue)
   ## Description
-  alksdjf;lk
+  asldkfjlk
 
   ## Table of Contents
   * [Installation](#installation)
@@ -13,21 +13,21 @@
   * [Questions](#questions)
     
   ## Installation
-  a;lskjdf;alksjd
+  a;klsdjflk;j
 
   ## Usage
-  a;lsjfalk;sdjf
+  as;ldkfjjl;
 
   ## License
   MIT
 
   ## Contributing
-  a;klsdfj;alsjdf
+  lkjafsl;kdjflk
 
   ## Tests
-  a;lsdkjf;alksjdf
+  asjdklf;laksjdf
 
   ## Questions
-  *Contact me on [Github](http://www.github.com/DuncanMarten)
-  *Contact me by [email](mailto:duncanmarten@yahoo.com?subject=[Question]%20About%20README-Generator)
+  * Contact me on [Github](http://www.github.com/DuncanMarten)
+  * Contact me by [email](mailto:duncanmarten@yahoo.com?subject=[Question]%20About%20README.md)
   
