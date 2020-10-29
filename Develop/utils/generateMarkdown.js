@@ -21,7 +21,7 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ## License
-  ${data.license}
+  [${data.license}](https://opensource.org/licenses/${data.license})
 
   ## Contributing
   ${data.contributing}
