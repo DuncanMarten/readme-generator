@@ -130,6 +130,8 @@ const writeToFile = data => {
     fs.writeFile('./dist/README.md', data, err => {
         if (err) {
             console.log(err);
+        } else {
+            console.log('README.md was created!')
         }
     })
 }
